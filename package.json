@@ -1,0 +1,16 @@
+{
+  "name": "nsfw-guard-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that deletes NSFW images using a local model",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5",
+    "nsfwjs": "^4.2.1"
+  }
+}
